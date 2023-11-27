@@ -39,6 +39,8 @@ It is used to describe, design, and document APIs in a standardized way, making 
 *********************
 ##  Setup and Installation :white_check_mark: <a name="setup-installation"></a>
 
+The setup is possible in two ways. The first one is running the following commands belor and using **make** commands. The Makefile simplifies the setup process through automation and organized target execution.
+
 ### Cloning the repo :file_folder:
 First off, in order to get a copy of the project to run/test it, clone the repository into a folder on your machine:
 
@@ -75,7 +77,14 @@ or (for Windows):
 To install all the necessary project dependencies, run the following command in the terminal (make sure you're running it from whithin your virtualenv):
 
 ```shell
-pip install -r requirements.txt
+pip install -r setup/requirements.txt
+```
+
+### Makefile
+To install all the necessary project dependencies, run the following command in the terminal (make sure you have make installed):
+
+```shell
+make start
 ```
 
 *********************
@@ -92,6 +101,13 @@ To run the application, run the following command under the first `swagger` fold
 or
 ```shell
 python manage.py runserver
+```
+
+### Makefile
+To run the application with **make**, run the following command:
+
+```shell
+make runServer
 ```
 
 ### Accessing Swagger
