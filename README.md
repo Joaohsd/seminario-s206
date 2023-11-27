@@ -28,8 +28,7 @@ It is used to describe, design, and document APIs in a standardized way, making 
 * [Requirements](#requirements)
 * [Setup and Installation](#setup-installation)
 * [How to Use](#how-to-use)
-* [Technical Information](#technical-information)
-* [Final Considerations](#final-considerations)
+* [Integrating Swagger with Django](#integrating-swagger-with-django)
 
 *********************
 ##  Requirements :pencil: <a name="requirements"></a>
