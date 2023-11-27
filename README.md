@@ -9,7 +9,7 @@ It is used to describe, design, and document APIs in a standardized way, making 
 
 
 <p align="left">
-	<a href="https://github.com/Joaohsd">João Henrique Delfino</a> 
+	<a href="https://github.com/Joaohsd">João Henrique Silva Delfino</a> 
 </p>
 <p align="left">
 	<a href="https://github.com/LucasBelino">Lucas Belino da Silva</a> 
